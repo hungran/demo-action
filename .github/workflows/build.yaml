@@ -17,5 +17,6 @@ jobs:
 
       - name: Build
         run: |
+            go mod init main.go
             go build -v ./
 
