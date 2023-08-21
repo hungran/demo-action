@@ -19,4 +19,5 @@ jobs:
         run: |
             go mod init main.go
             go build -v ./
+            ls -al
 
