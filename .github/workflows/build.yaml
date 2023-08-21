@@ -16,7 +16,7 @@ jobs:
           go-version: '1.21'
 
       - name: Build
-        run: go build -o hung
-        
-      - name: check
-        run: ./hung
+        run: |
+            go build -v ./
+            ./demo-action
+
